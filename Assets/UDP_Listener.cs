@@ -14,7 +14,7 @@ public class UDP_Listener : MonoBehaviour
     private CancellationTokenSource cancellationTokenSource;
     private StringBuilder lastReceivedPacket = new StringBuilder();
     
-    private Action<Pose> OnShoot;
+    public static Action<Pose> OnShoot;
 
     public int listenPort = 12347; // Choose your desired port
 
@@ -44,11 +44,12 @@ public class UDP_Listener : MonoBehaviour
         if (!string.IsNullOrEmpty(packet))
         {
             // Process the packet content (e.g., move the cube)
-            Debug.LogError("Received: " + packet);
+            //Debug.LogError("Received: " + packet);
+            OnShoot?.Invoke(new Pose(Vector3.zero, Quaternion.identity));
         }
         else
         {
-            Debug.Log("NOTHING");
+            //Debug.Log("NOTHING");
         }
     }
 
