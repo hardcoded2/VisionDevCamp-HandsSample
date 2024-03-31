@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2156284903077607890
 Transform:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5246b4e9b25e4b9e903bc14bca2f1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Fire: {fileID: 0}
+  m_Fire: {fileID: 1139994591415804089}
 --- !u!1001 &3575609169098211648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -177,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 4489260424600887801, guid: 91dbd5724e538498ba7df0bc249f760b, type: 3}
       propertyPath: m_Name
       value: Confetti
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489260424600887801, guid: 91dbd5724e538498ba7df0bc249f760b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4826753338347145088, guid: 91dbd5724e538498ba7df0bc249f760b, type: 3}
       propertyPath: m_AllowRoll
@@ -227,6 +231,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91dbd5724e538498ba7df0bc249f760b, type: 3}
+--- !u!1 &1139994591415804089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4489260424600887801, guid: 91dbd5724e538498ba7df0bc249f760b, type: 3}
+  m_PrefabInstance: {fileID: 3575609169098211648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8991775634147414452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5572687580348289268, guid: 91dbd5724e538498ba7df0bc249f760b, type: 3}

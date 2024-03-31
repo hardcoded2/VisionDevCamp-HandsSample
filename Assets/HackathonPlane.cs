@@ -2,6 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.XR.ARFoundation;
 
 #if UNITY_INCLUDE_ARFOUNDATION
 using UnityEngine.XR.ARFoundation;
@@ -13,11 +14,13 @@ using UnityEngine.XR.ARFoundation;
 public class HackathonPlane : MonoBehaviour
 {
     [SerializeField] private GameObject m_Fire;
+    
+    [ContextMenu("toggle fire")]
     public void ToggleFire()
     {
         m_Fire.SetActive(!m_Fire.activeSelf);
     }
-#if UNITY_INCLUDE_ARFOUNDATION
+#if UNITY_INCLUDE_ARFOUNDATION || true
     ARPlane m_Plane;
 
     void OnEnable()
