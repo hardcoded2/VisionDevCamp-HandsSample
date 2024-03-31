@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/XR Hands/1.4.0/HandVisualizer/HandVisualizer.unity
-    guid: ab7acf0d9677fbe4db51bc36647d4fcb
+    path: Assets/Samples/PolySpatial/Scenes/ImageTracking.unity
+    guid: fa1b05869d02c2c44941fbd777088126
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bd3a47936b0a842e69598029d5c5ebf8, type: 2}
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 42241fcbdb4e54cdab3e191ff400ac2d, type: 2}
