@@ -37,3 +37,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: two
     m_Texture: {fileID: 2800000, guid: 0976ea645d1834d789b8b0fc8437a089, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5220748702533912769
+      m_GuidHigh: 1585383136053258169
+    m_SerializedTextureGuid:
+      m_GuidLow: 13015781223924915724
+      m_GuidHigh: 8433822717619695530
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: rainbow_image
+    m_Texture: {fileID: 2800000, guid: 063e5e0c5810b4a1aa6f57ce13f50a75, type: 3}

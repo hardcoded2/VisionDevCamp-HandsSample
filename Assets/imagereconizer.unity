@@ -209,10 +209,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HackathonPlane
       objectReference: {fileID: 0}
-    - target: {fileID: 680114521416276321, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2156284903077607890, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -253,26 +249,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8314505893301864128, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
-      propertyPath: m_AllowRoll
-      value: 0
+    - target: {fileID: 6709778961499388624, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
+      propertyPath: m_AlignmentText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6709778961499388624, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
+      propertyPath: m_ClassificationText
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 682886992856445604, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 3985657222438608171, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6832860766503199078, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 7206073130655739508, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff35fae6aa7074cfa84e3daa9c85aa97, type: 3}
 --- !u!1 &215855080
 GameObject:
