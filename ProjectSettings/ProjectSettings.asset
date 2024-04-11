@@ -140,10 +140,7 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: 860987338270624649, guid: 3f9d2cd3317e64e73a8896de3b557d5f, type: 2}
-  - {fileID: 11400000, guid: d6ff17916cbdf466d8184b1fb9e94983, type: 2}
-  - {fileID: 11400000, guid: ca01546fd0685464dbeacb70716f40b3, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -285,11 +282,21 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: d1e90f9241a694f18bd3f0ba676cfc53, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: VisionOS
     m_Icons:
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: d1e90f9241a694f18bd3f0ba676cfc53, type: 3}
+      - {fileID: 2800000, guid: d1e90f9241a694f18bd3f0ba676cfc53, type: 3}
+      - {fileID: 2800000, guid: d1e90f9241a694f18bd3f0ba676cfc53, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 0
@@ -960,6 +967,6 @@ PlayerSettings:
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
-  platformRequiresReadableAssets: 1
+  platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
   insecureHttpOption: 0
